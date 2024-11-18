@@ -1,0 +1,251 @@
+body {
+  margin: 0;
+    /* display: flex; */
+  flex-direction: column;
+  align-items: flex-start; 
+  width: 100vw;
+  overflow-x: hidden;
+  background-color: grey;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-height: fit-content;
+}
+  
+
+li{
+  list-style: none;
+}
+
+/* LANDING PAGE */
+#landingpage {
+  width: 100vw;             
+  padding-left: 10%;        
+  padding-top: 10%;         
+  border-bottom: 5px soid white;
+  background-image: url('../src/background.avif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 50px;
+}
+
+
+#card {
+  padding: 10px;
+  background-color: rgba(196, 196, 196, 0.644);
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  line-height: 40px;
+  /* margin-bottom: 50px; */
+} 
+
+#logo {
+  width: 35%;
+  height: auto;
+  padding: 30px;
+}
+
+#container {
+  color: aliceblue;
+  font-size: 43px;
+  font-weight: bold;
+  padding-left: 50px;
+}
+
+#textbox1, #textbox2 {
+  padding: 20px 50px;
+  color: aliceblue;
+  font-size: 1.2em;
+}
+
+#contact {
+  color: black;
+  font-size: larger;
+  font-weight: bolder;
+  background-color: rgba(251, 255, 2, 0.726);
+  width: 100%;
+  height: 45px;
+  cursor: pointer;
+  border: none;
+}
+
+#contact :hover{
+  background-color: rgba(9, 71, 130, 0.255);
+  text-decoration: underline;
+}
+
+#button {
+  display: flex;
+  margin-left: 100px;
+  justify-content: center;
+  padding: 20px 0;
+  width: 50%;
+}
+
+/* TEAM PAGE */
+#teampage {
+  width: 100vw;
+  padding: 50px 0;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  /* margin-top: 50px; */
+  /* border-top: 3px solid #094782; */
+}
+
+#teampage h2 {
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: white;
+}
+
+#team-container {
+  display: flex;
+  justify-content: center;       
+  flex-wrap: wrap;              
+  gap: 30px;      
+  padding-bottom: 25%;               
+}
+
+#team-member {
+  display: flex;
+  flex-direction: column;        
+  align-items: center;
+  width: 150px;                  
+  text-align: center;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+#team-member img {
+  width: 100px;                  
+  height: 100px;
+  border-radius: 50%;            
+  margin-bottom: 10px;
+}
+
+#team-member ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#team-member li {
+  font-size: 1em;
+}
+ h2{
+  padding-bottom: 30px;
+ }
+
+
+/* STRENGTHS PAGE */
+#strengthspage {
+  display: flex;                    
+  justify-content: space-between;   
+  padding: 20px;
+  gap: 20px;  
+  font-size: larger; 
+  background-color: #e2dfd8;
+  /* border-top: 3px solid #094782; */
+}
+#strengthspage b {
+  color: #094782;
+}
+
+#strengthspage li {
+  padding-bottom: 10px;
+}
+
+#article-left {
+  font-size: 45px;
+  width: 45%;                      
+}
+
+#article-right {
+  width: 50%;       
+  padding-right: 30px;               
+}
+
+/*ACHIEVEMENTS PAGE*/
+#achievementspage{
+  /* border-top: 3px solid #094782; */
+  background-color: white;
+  /* border-bottom: 3px solid #094782; */
+}
+#achievements-container{
+  margin-left: 20%;
+  padding: 20px;
+  line-height: 25px;
+  font-size: larger;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#achievements-container h2 {
+ margin-left: 20%;
+ color: #094782;
+}
+#achievements-container li {
+  /* line-height: 55px; */
+  list-style: disc;
+  padding-bottom: 20px;
+  width: 50%;
+}
+li::marker {
+  color: #094782;
+}
+
+/*SERVICES PAGE*/
+#servicespage {
+  display: flex;                    
+  justify-content: space-between;   
+  padding: 20px;
+  gap: 20px;  
+  font-size: larger; 
+  background-color: #28282b;
+  color: white;
+  /* border-top: 3px solid #094782; */
+  padding-bottom: 100px;
+}
+#servicespage b {
+  color: #094782;
+}
+#servicespage li {
+  padding-bottom: 10px;
+}
+#div-right {
+  font-size: 43px;
+  width: 45%;    
+  text-align: right;           
+  padding-right: 15px;       
+}
+#div-left {
+  width: 50%;       
+  padding-right: 30px;               
+}
+
+/*CONTACT PAGE*/
+#contactpage{
+  border-top: 10px solid white;
+  background-image: url('../src/anders-jilden-Sc5RKXLBjGg-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  font-weight: bolder;
+}
+#contactpage h2{
+  margin-left: 25%;
+  padding-top: 40px;
+  color: #fff;
+  /* text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff; */
+}
+#email-adress{
+  display: flex;                    
+  justify-content: space-between;   
+  margin-left: 20px;
+  margin-right: 400px;
+  padding: 30px;
+  font-size: larger; 
+}
